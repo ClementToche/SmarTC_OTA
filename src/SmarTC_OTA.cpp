@@ -98,7 +98,7 @@ void SmarTC_OTA::onError(ota_error_t error)
 
 void SmarTC_OTA::onProgress(unsigned int progress, unsigned int total)
 {
-    Serial.printf("Progress: %u%%\r", (progress / (total / 100)));
+    Serial.printf("Progress: %u%%\n", (progress / (total / 100)));
 }
 
 bool SmarTC_OTA::loop()
