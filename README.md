@@ -1,2 +1,2 @@
 # SmarTC_OTA
-Settings retrieval helper library for SmarTC Home automation system
+OTA helper library for SmarTC Home automation system
